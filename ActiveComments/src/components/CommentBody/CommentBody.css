@@ -1,0 +1,131 @@
+@font-face {
+    font-family:'Rubik-B' ;
+    src: url(../../assets/fonts/static/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family:'Rubik-M' ;
+    src: url(../../assets/fonts/static/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family:'Rubik-R' ;
+    src: url(../../assets/fonts/static/Rubik-Regular.ttf);
+}
+.comment{
+    width: 650px;
+    height: 140px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    gap: 120px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 100px;
+    height: 25px;
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.Rlabel{
+    color: hsl(238, 40%, 52%);
+    margin-left: 10px;
+    font-size: 14px;
+    font-family:'Rubik-M' ;
+}
+p{
+    width:500px;
+    height: 70px;
+    margin: 0;
+    color: hsl(211, 10%, 45%);
+    font-family:'Rubik-R' ;
+}
+.mention{
+    color: hsl(238, 40%, 52%);
+    cursor: pointer;
+    font-family:'Rubik-M' 
+}
+.name{
+    color: black;
+    font-family:'Rubik-B' ;
+}
+.time{
+    color: hsl(211, 10%, 45%);
+    font-family:'Rubik-R' ;
+}
+.DeRbtn{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    
+}
+@media screen and (max-width:376px) {
+    .comment{
+        width: 330px;
+        height: 190px;
+        flex-direction: column-reverse;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    p{
+        width: 310px;
+        height: 60px;
+        font-size: 14px;
+    }
+    .header{
+        column-gap: 0;
+        width: 300px;
+    }
+    .info{
+        width: 370px;
+    }
+    .btn{
+        position: relative;
+        top: 150px;
+        left: -30px;
+        display: flex;
+        flex-direction: row;
+    }
+    .avatar{
+        width: 40px;
+        height: 40px;
+    }
+    .time{
+        width: 100px;
+    }  
+    .DeRbtn{
+        column-gap: 0;
+        width: 50px;
+       
+    }
+}

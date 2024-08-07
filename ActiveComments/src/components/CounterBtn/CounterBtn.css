@@ -1,0 +1,31 @@
+.btns{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(228, 33%, 97%);
+    width: 50px;
+    height: 90px;
+    border-radius: 10px;
+}
+.click{
+    border: none;
+    background-color:hsl(228, 33%, 97%) ;
+    cursor: pointer;
+}
+.count{
+    color: hsl(238, 40%, 52%);
+    font-family:'Rubik-B' ;
+}
+@media screen and (max-width:376px) {
+    .btns{
+        flex-direction: row;
+        column-gap: 10px;
+        width: 95px;
+        height: 50px;
+        margin-top:30px;
+        margin-right: 190px;
+        margin-bottom: 10px; 
+    }
+}
